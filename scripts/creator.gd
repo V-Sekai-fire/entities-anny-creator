@@ -57,8 +57,8 @@ func _find(node: Node, cls: String) -> Node:
 func _build_world() -> void:
 	var cam := Camera3D.new()
 	add_child(cam)
-	cam.position = Vector3(0.0, 1.0, 3.2)
-	cam.look_at(Vector3(0.0, 0.95, 0.0))
+	cam.position = Vector3(0.0, 0.1, 2.4)
+	cam.look_at(Vector3(0.0, -0.05, 0.0))
 	var sun := DirectionalLight3D.new()
 	sun.rotation_degrees = Vector3(-40.0, 30.0, 0.0)
 	add_child(sun)
