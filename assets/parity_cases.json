@@ -1,0 +1,585 @@
+{
+ "cases": [
+  {
+   "phenotype": {
+    "gender": 0.13168713888191508,
+    "age": 0.47137685257782624,
+    "muscle": 0.1741589961172031,
+    "weight": 0.0024470837662211586,
+    "height": 0.8592381137163551,
+    "proportions": 0.2093487713985367
+   },
+   "local": {
+    "l-cheek-bones-incr": 0.609966875552292,
+    "head-trans-forward": -0.059048036446109675,
+    "l-upperleg-muscle-incr": -0.2880201229708299,
+    "forehead-trans-forward": -0.851802918691211,
+    "measure-upperarm-length-incr": 0.7017640349363563,
+    "measure-upperleg-height-incr": -0.12522018422140668,
+    "r-eye-corner2-up": -0.8247754054019254,
+    "bulge-incr": -0.4006347377151902,
+    "l-eye-bag-out": -0.5721395631971011,
+    "l-ear-scale-depth-incr": 0.6388489832756037
+   },
+   "facial": {
+    "au28_lip_suck_upper": 0.6979416561474816,
+    "au01_inner_brow_raiser": 0.9789759531818156,
+    "au07_lid_tightener_l": 0.13672489638116547,
+    "au10_upper_lip_raiser_l": 0.5432260351256458,
+    "au04_brow_lowerer_r": 0.8555622445390486
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.44431975058681084,
+    "age": 0.8227389882262099,
+    "muscle": 0.2751297568417769,
+    "weight": 0.33138399591966006,
+    "height": 0.8984994701773,
+    "proportions": 0.961484261717779
+   },
+   "local": {
+    "hip-scale-vert-incr": -0.7090299770381201,
+    "l-eye-height2-incr": -0.10260404724900285,
+    "l-eye-trans-out": 0.754449482120416,
+    "r-upperarm-scale-vert-incr": 0.8899867617043775,
+    "l-cheek-volume-incr": -0.7149706457744345,
+    "l-ear-wing-incr": 0.9223577835030388,
+    "eyebrows-angle-up": -0.0583753157595186,
+    "nose-curve-convex": -0.9975795433551213,
+    "measure-underbust-circ-incr": 0.25942281721400007,
+    "l-ear-shape-round": -0.6080787148271136
+   },
+   "facial": {
+    "ad34_cheek_puff": 0.619097776577627,
+    "au22_lip_funneler": 0.3307862595213986,
+    "m64_eyes_down_r": 0.7668459104588152,
+    "m63_eyes_up_l": 0.9827323004684618,
+    "ad19_tongue_show": 0.2510833306979572
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.6525297005319889,
+    "age": 0.19085433954978503,
+    "muscle": 0.8736138334191912,
+    "weight": 0.269047608292839,
+    "height": 0.12961066816760658,
+    "proportions": 0.5922426760199043
+   },
+   "local": {
+    "l-eye-epicanthus-out": -0.2267911639388318,
+    "torso-muscle-pectoral-incr": 0.8895959848791462,
+    "breast-point-incr": 0.5096179486667787,
+    "r-upperarm-muscle-incr": 0.6847264024021567,
+    "measure-lowerarm-length-incr": 0.3006298942611634,
+    "neck-double-incr": -0.5002710724889721,
+    "torso-trans-forward": 0.9679754806673155,
+    "l-ear-shape-round": -0.3154354046157035,
+    "hip-trans-forward": -0.8958086452097651,
+    "measure-lowerleg-height-incr": -0.35175209417060205
+   },
+   "facial": {
+    "au14_dimpler_r": 0.42294333760007574,
+    "m64_eyes_down_l": 0.5575373255807861,
+    "m63_eyes_up_r": 0.5102721737041137,
+    "au14_dimpler_l": 0.6279071544455528,
+    "au05_upper_lid_raiser_l": 0.24042139793432182
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.6528262651270417,
+    "age": 0.8731209534800396,
+    "muscle": 0.23975881533277588,
+    "weight": 0.5172965375392437,
+    "height": 0.3075205552936736,
+    "proportions": 0.28169602847176156
+   },
+   "local": {
+    "r-eye-height2-incr": -0.6701721329695778,
+    "r-eye-push2-out": -0.24101134039714478,
+    "r-hand-trans-out": -0.8985393828460664,
+    "mouth-cupidsbow-incr": 0.8981522863538784,
+    "l-lowerleg-scale-horiz-incr": -0.5521690784434903,
+    "breast-trans-up": 0.15473391698464845,
+    "nose-trans-forward": 0.3998678337142114,
+    "mouth-dimples-out": -0.11621115215206412,
+    "l-ear-scale-depth-incr": -0.2216748787171856,
+    "lowerlegs-height-incr": 0.6993886717339757
+   },
+   "facial": {
+    "ad30_jaw_sideways_l": 0.05800637772684192,
+    "au28_lip_suck_lower": 0.5453300163716012,
+    "au26_jaw_drop": 0.4847456281395669,
+    "ad34_cheek_puff": 0.07398785657841156,
+    "au15_lip_corner_depressor_l": 0.3883166596936416
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.9515208762883537,
+    "age": 0.4930496551507022,
+    "muscle": 0.7068819265604228,
+    "weight": 0.2687845158429373,
+    "height": 0.6418652894716997,
+    "proportions": 0.42889074679746775
+   },
+   "local": {
+    "nose-scale-horiz-incr": 0.7098220788292211,
+    "l-foot-scale-vert-incr": -0.3283709773581114,
+    "nose-scale-vert-incr": 0.3743622111305145,
+    "r-foot-trans-forward": 0.21624378047543158,
+    "nose-greek-incr": 0.653875455986866,
+    "measure-ankle-circ-incr": -0.3863238513132674,
+    "nose-nostrils-width-incr": 0.13184579553464726,
+    "r-eye-trans-up": 0.06458441370503842,
+    "measure-frontchest-dist-incr": 0.20266612745991663,
+    "r-foot-scale-horiz-incr": -0.1459053205723868
+   },
+   "facial": {
+    "au22_lip_funneler": 0.10349732877891638,
+    "au08_lips_toward": 0.4597429683967146,
+    "au12_lip_corner_puller_r": 0.25981327822441025,
+    "au09_nose_wrinkler_l": 0.6535362845302269,
+    "au18_lip_pucker": 0.2627863630804662
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.9543372332384492,
+    "age": 0.2887383504622809,
+    "muscle": 0.05476617370315129,
+    "weight": 0.6475044170340547,
+    "height": 0.2795602488874118,
+    "proportions": 0.3451533104302198
+   },
+   "local": {
+    "r-upperleg-fat-incr": -0.33842016135802955,
+    "head-angle-out": 0.36587436518169203,
+    "l-lowerarm-muscle-incr": -0.7891065261772319,
+    "mouth-lowerlip-volume-incr": 0.8684231460356795,
+    "l-ear-lobe-incr": 0.5171985223977953,
+    "l-lowerleg-scale-depth-incr": 0.7635784744527012,
+    "r-eye-bag-incr": 0.10605607517212934,
+    "nose-trans-out": -0.5219936014623845,
+    "r-lowerarm-scale-depth-incr": 0.0023913510543978056,
+    "l-cheek-trans-up": 0.2563540174429306
+   },
+   "facial": {
+    "au05_upper_lid_raiser_r": 0.5096733642254891,
+    "m63_eyes_up_l": 0.8714128473393767,
+    "au09_nose_wrinkler_r": 0.016914966098503625,
+    "au04_brow_lowerer_l": 0.6661532354006987,
+    "lips_sideways_r": 0.6910431609317791
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.07056884865846313,
+    "age": 0.4843997499721623,
+    "muscle": 0.20977930215543972,
+    "weight": 0.5730687197119025,
+    "height": 0.8043620183190436,
+    "proportions": 0.10967921303792005
+   },
+   "local": {
+    "r-eye-trans-up": -0.3470943127563342,
+    "l-lowerarm-scale-horiz-incr": -0.29771489917489746,
+    "r-eye-scale-incr": -0.24109858182503485,
+    "l-lowerarm-muscle-incr": 0.4720998771170024,
+    "stomach-navel-up": 0.7705956081083072,
+    "mouth-trans-forward": -0.0935893739349023,
+    "l-lowerleg-scale-horiz-incr": -0.6854400119830353,
+    "r-ear-lobe-incr": -0.6137784398219319,
+    "r-lowerleg-fat-incr": 0.20197076034038797,
+    "r-lowerarm-muscle-incr": 0.32164980829995415
+   },
+   "facial": {
+    "au28_lip_suck_upper": 0.245230759501324,
+    "au14_dimpler_r": 0.6902241483445428,
+    "ad30_jaw_sideways_l": 0.7135490919027828,
+    "au05_upper_lid_raiser_l": 0.6133946841227409,
+    "au20_lip_stretcher_r": 0.5462801710058725
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.4981441217936947,
+    "age": 0.11087195244852321,
+    "muscle": 0.6688576065261836,
+    "weight": 0.9241257322237346,
+    "height": 0.5012658556992149,
+    "proportions": 0.5861680404847295
+   },
+   "local": {
+    "torso-trans-up": 0.9202319986480907,
+    "breast-trans-up": -0.3289355244982459,
+    "r-ear-scale-incr": 0.5643699030360709,
+    "r-cheek-inner-incr": -0.9045177795164383,
+    "r-cheek-volume-incr": 0.3822584867653094,
+    "r-ear-shape-round": 0.21988100325842352,
+    "l-lowerleg-muscle-incr": 0.21420608066401536,
+    "measure-upperarm-circ-incr": -0.26396249046873543,
+    "l-lowerarm-scale-vert-incr": 0.9367978829646004,
+    "mouth-dimples-out": 0.9524874904575582
+   },
+   "facial": {
+    "au06_cheek_raiser_r": 0.010593225578178878,
+    "au07_lid_tightener_l": 0.28599132080678824,
+    "au16_lower_lip_depressor_l": 0.30878424798472837,
+    "au12_lip_corner_puller_l": 0.08059201026051255,
+    "ad19_tongue_show": 0.6990281090475816
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.8432315662194837,
+    "age": 0.9831688557836473,
+    "muscle": 0.9851641961330235,
+    "weight": 0.22778686399192738,
+    "height": 0.7206111805306991,
+    "proportions": 0.9404052986418703
+   },
+   "local": {
+    "r-lowerarm-muscle-incr": 0.6899272565021803,
+    "r-cheek-bones-incr": 0.6526690223918294,
+    "l-ear-rot-forward": 0.17969024798381672,
+    "nose-width3-incr": -0.9659656545360868,
+    "mouth-trans-up": 0.08018755462090277,
+    "r-leg-valgus-incr": -0.7272127520538776,
+    "nose-scale-depth-incr": -0.8904147820105208,
+    "r-upperarm-scale-horiz-incr": -0.32420227822910674,
+    "stomach-pregnant-incr": -0.7134392312838869,
+    "r-ear-flap-incr": -0.19882308986152863
+   },
+   "facial": {
+    "au18_lip_pucker": 0.751930677237976,
+    "au07_lid_tightener_l": 0.8220411311791125,
+    "au16_lower_lip_depressor_l": 0.08219713720010013,
+    "au01_inner_brow_raiser": 0.6832932082458962,
+    "ad30_jaw_sideways_r": 0.5628184432497403
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.8811061026535524,
+    "age": 0.9108143117560566,
+    "muscle": 0.9043954533045467,
+    "weight": 0.7628384450979729,
+    "height": 0.35112372351654175,
+    "proportions": 0.023241269785066465
+   },
+   "local": {
+    "mouth-trans-out": -0.4623562770490759,
+    "measure-upperarm-circ-incr": -0.5811524198591351,
+    "r-upperleg-fat-incr": -0.21559732753698047,
+    "r-lowerleg-scale-horiz-incr": -0.8717815177291921,
+    "mouth-upperlip-height-incr": 0.882726794520865,
+    "nose-point-width-incr": 0.08969852537825229,
+    "l-upperleg-scale-horiz-incr": 0.3686806334875474,
+    "nose-scale-depth-incr": -0.5085179123213857,
+    "r-ear-flap-incr": 0.036357797574492645,
+    "r-foot-scale-incr": 0.4574727353013346
+   },
+   "facial": {
+    "au18_lip_pucker": 0.009636777849098888,
+    "au17_chin_raiser_upper": 0.35675732698266915,
+    "au10_upper_lip_raiser_l": 0.1727590665837223,
+    "m64_eyes_down_l": 0.4417972453648913,
+    "lips_sideways_r": 0.7268402528130736
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.4227976451070109,
+    "age": 0.4134647236066865,
+    "muscle": 0.44708735569510094,
+    "weight": 0.09646985306114575,
+    "height": 0.702244481655544,
+    "proportions": 0.12421535821992169
+   },
+   "local": {
+    "neck-trans-out": 0.22731258717963354,
+    "torso-scale-depth-incr": 0.26946117009573634,
+    "r-foot-scale-vert-incr": -0.3306190106088249,
+    "l-lowerarm-scale-vert-incr": 0.7706559807601856,
+    "measure-underbust-circ-incr": -0.5001030260361061,
+    "l-foot-scale-horiz-incr": 0.6024481097098742,
+    "measure-napetowaist-dist-incr": 0.735398192770016,
+    "nose-scale-horiz-incr": 0.1966504314326043,
+    "chin-prominent-incr": -0.21204080760697241,
+    "l-cheek-bones-incr": 0.34320038686597276
+   },
+   "facial": {
+    "au28_lip_suck_lower": 0.8243367556633823,
+    "au12_lip_corner_puller_l": 0.8601233247291709,
+    "au09_nose_wrinkler_r": 0.9533921575648154,
+    "au15_lip_corner_depressor_r": 0.2393010349612511,
+    "au05_upper_lid_raiser_r": 0.46407529233945355
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.2717572390184404,
+    "age": 0.7194459153659459,
+    "muscle": 0.5374482404598817,
+    "weight": 0.5364716010571057,
+    "height": 0.49417009897007047,
+    "proportions": 0.2555988181030532
+   },
+   "local": {
+    "head-scale-depth-incr": 0.8106494213575182,
+    "r-foot-scale-horiz-incr": 0.397577408793496,
+    "mouth-upperlip-middle-up": 0.6339377046220258,
+    "l-ear-scale-depth-incr": -0.8289934411268285,
+    "r-eye-eyefold-up": -0.8219907024943569,
+    "measure-lowerarm-length-incr": 0.8287453423884641,
+    "l-eye-corner1-up": 0.8194731631088599,
+    "mouth-laugh-lines-out": 0.9441483937742812,
+    "eyebrows-angle-up": 0.7093295458028694,
+    "l-lowerleg-scale-depth-incr": -0.7936057455310526
+   },
+   "facial": {
+    "au20_lip_stretcher_l": 0.5296478825288564,
+    "au24_lip_presser_r": 0.5744054432577712,
+    "au28_lip_suck_upper": 0.6029721889554746,
+    "au09_nose_wrinkler_r": 0.6166174666804075,
+    "au18_lip_pucker": 0.21974932546603432
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.9794958704962702,
+    "age": 0.9685191798545754,
+    "muscle": 0.30116067344467545,
+    "weight": 0.47140947682651413,
+    "height": 0.2075351229179314,
+    "proportions": 0.7406127091485117
+   },
+   "local": {
+    "l-eye-trans-out": -0.9914453585941807,
+    "l-lowerarm-muscle-incr": 0.0518676185635456,
+    "l-lowerleg-scale-horiz-incr": 0.11152902639302575,
+    "r-upperarm-scale-horiz-incr": -0.47168824741268,
+    "l-eye-corner2-up": 0.9391574549321999,
+    "measure-bust-circ-incr": -0.4224040848677246,
+    "r-eye-corner1-up": 0.32768619855734316,
+    "r-lowerleg-scale-depth-incr": -0.1028077930042719,
+    "head-age-incr": 0.5803042662533819,
+    "l-eye-bag-out": 0.3521095706593791
+   },
+   "facial": {
+    "au17_chin_raiser_lower": 0.41797994894452617,
+    "au01_inner_brow_raiser": 0.01901855161791033,
+    "m63_eyes_up_l": 0.8961887885873235,
+    "m62_eyes_right_r": 0.022712643247094322,
+    "au07_lid_tightener_l": 0.5127760828703176
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.10909814171504273,
+    "age": 0.47158219260369816,
+    "muscle": 0.11078630230349351,
+    "weight": 0.07636063559020212,
+    "height": 0.16649243967845806,
+    "proportions": 0.6230857520138849
+   },
+   "local": {
+    "mouth-upperlip-volume-incr": 0.08039933204660588,
+    "l-eye-corner2-up": -0.9004630216933032,
+    "measure-neck-circ-incr": 0.6566248414748161,
+    "breast-trans-up": -0.11472105588961057,
+    "l-ear-rot-forward": 0.4305573858096359,
+    "nose-hump-incr": 0.8513686805002452,
+    "l-foot-scale-horiz-incr": -0.7094114631027182,
+    "r-eye-height1-incr": 0.5802375256200389,
+    "neck-scale-vert-incr": -0.8931543991112836,
+    "l-upperleg-fat-incr": 0.23033843301638202
+   },
+   "facial": {
+    "au14_dimpler_l": 0.6272024633643926,
+    "au04_brow_lowerer_l": 0.7864087305042681,
+    "au26_jaw_drop": 0.8716581926791116,
+    "au02_outer_brow_raiser_r": 0.27697697589101233,
+    "au16_lower_lip_depressor_r": 0.05483710152898347
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.9229322673535516,
+    "age": 0.44353622668761084,
+    "muscle": 0.6784009585703752,
+    "weight": 0.09904084907578614,
+    "height": 0.913176712359179,
+    "proportions": 0.43079894908794014
+   },
+   "local": {
+    "l-lowerleg-fat-incr": -0.8713795106814086,
+    "measure-napetowaist-dist-incr": 0.6957344124445133,
+    "r-hand-fingers-distance-incr": 0.26822810513840145,
+    "mouth-laugh-lines-out": 0.6029019538239608,
+    "r-upperleg-scale-depth-incr": 0.8279781998912141,
+    "l-lowerarm-scale-horiz-incr": -0.8005811421120126,
+    "head-angle-out": 0.2592508567488354,
+    "r-upperleg-fat-incr": 0.8023288907727346,
+    "neck-trans-forward": -0.0842686836652351,
+    "nose-width3-incr": 0.5118060912049687
+   },
+   "facial": {
+    "au15_lip_corner_depressor_l": 0.627956760848347,
+    "ad29_jaw_thrust": 0.096651974046017,
+    "au24_lip_presser_l": 0.09999144365106949,
+    "au14_dimpler_l": 0.5389787190868097,
+    "au10_upper_lip_raiser_r": 0.8086396833698443
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.49013550553233054,
+    "age": 0.6678246224139096,
+    "muscle": 0.028047625523209163,
+    "weight": 0.9532705028592758,
+    "height": 0.6281563815502847,
+    "proportions": 0.7475248748315293
+   },
+   "local": {
+    "r-ear-shape-round": 0.916729419533858,
+    "l-lowerleg-scale-vert-incr": 0.9117381473787258,
+    "l-ear-scale-depth-incr": 0.7735490402744043,
+    "l-lowerleg-fat-incr": 0.03502063991453164,
+    "neck-scale-horiz-incr": -0.598924607418488,
+    "torso-trans-up": 0.2322028217952785,
+    "torso-vshape-incr": 0.04219109938968213,
+    "mouth-upperlip-volume-incr": -0.9210022625815877,
+    "r-ear-wing-incr": -0.6518466404318333,
+    "forehead-nubian-incr": -0.2028517359172497
+   },
+   "facial": {
+    "au07_lid_tightener_l": 0.048859940544566105,
+    "au06_cheek_raiser_l": 0.7865791335030776,
+    "ad34_cheek_puff": 0.9107260947207633,
+    "au17_chin_raiser_upper": 0.4386748097627834,
+    "au02_outer_brow_raiser_l": 0.9248181992029819
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.3995777093244749,
+    "age": 0.5273257893278417,
+    "muscle": 0.6015860420589251,
+    "weight": 0.3880032800370308,
+    "height": 0.21641830344415913,
+    "proportions": 0.8676121902146834
+   },
+   "local": {
+    "nose-width1-incr": 0.3583185106021134,
+    "r-eye-eyefold-angle-up": 0.8796389990633853,
+    "head-trans-forward": -0.051454820971599924,
+    "chin-bones-incr": 0.4072608609680479,
+    "chin-height-incr": 0.39775631028832015,
+    "nose-flaring-incr": 0.552161011858888,
+    "l-eye-trans-out": 0.9364818612475134,
+    "l-lowerleg-scale-vert-incr": 0.07528803756956348,
+    "l-ear-shape-round": 0.7886546917161268,
+    "r-upperarm-fat-incr": 0.08714329778317387
+   },
+   "facial": {
+    "au12_lip_corner_puller_l": 0.6508988440593492,
+    "au04_brow_lowerer_l": 0.15738430349979826,
+    "ad30_jaw_sideways_r": 0.08988342522010984,
+    "au08_lips_toward": 0.3428705571879185,
+    "au45_blink_l": 0.32076887972327406
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.9172599002635082,
+    "age": 0.8722050385684389,
+    "muscle": 0.4749619493943039,
+    "weight": 0.6498576931640077,
+    "height": 0.4241038170557865,
+    "proportions": 0.7066419554175216
+   },
+   "local": {
+    "r-lowerleg-muscle-incr": 0.9210014657926664,
+    "stomach-navel-out": -0.6623362099041961,
+    "nose-septumangle-incr": 0.6003143452799635,
+    "l-lowerleg-scale-depth-incr": -0.47726553889179524,
+    "r-hand-trans-out": 0.9395487761986101,
+    "r-eye-trans-out": -0.8660135830321689,
+    "head-trans-forward": 0.9989203645275695,
+    "measure-napetowaist-dist-incr": -0.6260308846524862,
+    "mouth-cupidsbow-incr": 0.03451864993790221,
+    "r-leg-valgus-incr": -0.3378763527239519
+   },
+   "facial": {
+    "au24_lip_presser_r": 0.4090549680352441,
+    "au05_upper_lid_raiser_r": 0.6316049195620634,
+    "au07_lid_tightener_r": 0.4594214673661552,
+    "ad30_jaw_sideways_l": 0.09407366548427931,
+    "ad29_jaw_thrust": 0.7606796966523237
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.5262207109193535,
+    "age": 0.04689720651882712,
+    "muscle": 0.4516246840017064,
+    "weight": 0.5364933181671203,
+    "height": 0.11568308963652107,
+    "proportions": 0.16137214279613876
+   },
+   "local": {
+    "mouth-lowerlip-width-incr": 0.10643996556832747,
+    "r-eye-epicanthus-out": -0.9544816104886951,
+    "torso-muscle-dorsi-incr": 0.12498266791342316,
+    "stomach-navel-up": -0.8509840158671806,
+    "l-eye-trans-out": 0.7201105197896938,
+    "l-leg-valgus-incr": 0.15669230868145712,
+    "l-eye-epicanthus-out": 0.1825882302562396,
+    "r-ear-flap-incr": 0.6543319358078976,
+    "head-trans-out": -0.07380201213733173,
+    "l-ear-wing-incr": 0.8730596905242294
+   },
+   "facial": {
+    "m62_eyes_right_r": 0.7537496764079128,
+    "m61_eyes_left_r": 0.31346914426248007,
+    "au16_lower_lip_depressor_r": 0.2929328250307157,
+    "ad30_jaw_sideways_l": 0.13489980869466534,
+    "au04_brow_lowerer_r": 0.04988271767152608
+   }
+  },
+  {
+   "phenotype": {
+    "gender": 0.17679227573778644,
+    "age": 0.3201717550094203,
+    "muscle": 0.8537862975391729,
+    "weight": 0.19372577154761939,
+    "height": 0.15136819613863794,
+    "proportions": 0.8629245578265562
+   },
+   "local": {
+    "measure-bust-circ-incr": 0.1819038140948812,
+    "head-trans-out": -0.9122295481779248,
+    "r-foot-trans-up": 0.9347866764741823,
+    "l-foot-trans-forward": -0.940422415092333,
+    "measure-thigh-circ-incr": -0.4089420684769658,
+    "mouth-upperlip-ext-up": 0.35456071348630447,
+    "r-hand-fingers-diameter-incr": -0.6182059013170522,
+    "mouth-trans-up": -0.9462553943339884,
+    "r-ear-scale-depth-incr": -0.04644816636299054,
+    "bulge-incr": -0.19269080486414625
+   },
+   "facial": {
+    "m62_eyes_right_l": 0.19687921492341598,
+    "au09_nose_wrinkler_r": 0.5730500479775403,
+    "au12_lip_corner_puller_r": 0.6311318320344167,
+    "au06_cheek_raiser_r": 0.1249516593519433,
+    "au45_blink_l": 0.2730124218298354
+   }
+  }
+ ],
+ "stride": 42818
+}

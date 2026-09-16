@@ -1,0 +1,9046 @@
+{
+ "vertex_count": 13718,
+ "face_count": 27420,
+ "bone_count": 104,
+ "target_count": 948,
+ "free_axes": [
+  "gender",
+  "age",
+  "muscle",
+  "weight",
+  "height",
+  "proportions"
+ ],
+ "free_slots": [
+  "male",
+  "female",
+  "newborn",
+  "baby",
+  "child",
+  "young",
+  "old",
+  "minmuscle",
+  "averagemuscle",
+  "maxmuscle",
+  "minweight",
+  "averageweight",
+  "maxweight",
+  "minheight",
+  "maxheight",
+  "idealproportions",
+  "uncommonproportions"
+ ],
+ "axis_slots": {
+  "gender": [
+   0,
+   1
+  ],
+  "age": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "muscle": [
+   7,
+   8,
+   9
+  ],
+  "weight": [
+   10,
+   11,
+   12
+  ],
+  "height": [
+   13,
+   14
+  ],
+  "proportions": [
+   15,
+   16
+  ]
+ },
+ "anchors": {
+  "age": [
+   -0.3333333333333333,
+   0.0,
+   0.33333333333333337,
+   0.6666666666666667,
+   1.0
+  ],
+  "gender": [
+   0.0,
+   1.0
+  ],
+  "muscle": [
+   0.0,
+   0.5,
+   1.0
+  ],
+  "weight": [
+   0.0,
+   0.5,
+   1.0
+  ],
+  "height": [
+   0.0,
+   1.0
+  ],
+  "proportions": [
+   0.0,
+   1.0
+  ]
+ },
+ "targets": [
+  {
+   "name": "mac_universal_male-newborn-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-newborn-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-newborn-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-newborn-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-newborn-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-newborn-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-newborn-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-newborn-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-newborn-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-baby-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-baby-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-baby-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-baby-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-baby-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-baby-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-baby-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-baby-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-baby-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-child-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-child-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-child-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-child-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-child-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-child-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-child-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-child-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-child-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-young-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-young-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-young-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-young-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-young-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-young-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-young-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-young-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-young-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-old-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-old-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-old-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-old-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-old-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-old-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_male-old-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_male-old-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_male-old-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-newborn-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-newborn-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-newborn-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-newborn-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-newborn-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-newborn-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-newborn-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-newborn-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-newborn-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-baby-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-baby-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-baby-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-baby-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-baby-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-baby-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-baby-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-baby-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-baby-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-child-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-child-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-child-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-child-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-child-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-child-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-child-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-child-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-child-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-young-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-young-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-young-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-young-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-young-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-young-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-young-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-young-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-young-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-old-minmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-old-minmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-old-minmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-old-averagemuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-old-averagemuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-old-averagemuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "mac_universal_female-old-maxmuscle-minweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "mac_universal_female-old-maxmuscle-averageweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "mac_universal_female-old-maxmuscle-maxweight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "mac_race_male-newborn",
+   "kind": "macro",
+   "slots": [
+    0,
+    2
+   ]
+  },
+  {
+   "name": "mac_race_male-baby",
+   "kind": "macro",
+   "slots": [
+    0,
+    3
+   ]
+  },
+  {
+   "name": "mac_race_male-child",
+   "kind": "macro",
+   "slots": [
+    0,
+    4
+   ]
+  },
+  {
+   "name": "mac_race_male-young",
+   "kind": "macro",
+   "slots": [
+    0,
+    5
+   ]
+  },
+  {
+   "name": "mac_race_male-old",
+   "kind": "macro",
+   "slots": [
+    0,
+    6
+   ]
+  },
+  {
+   "name": "mac_race_female-newborn",
+   "kind": "macro",
+   "slots": [
+    1,
+    2
+   ]
+  },
+  {
+   "name": "mac_race_female-baby",
+   "kind": "macro",
+   "slots": [
+    1,
+    3
+   ]
+  },
+  {
+   "name": "mac_race_female-child",
+   "kind": "macro",
+   "slots": [
+    1,
+    4
+   ]
+  },
+  {
+   "name": "mac_race_female-young",
+   "kind": "macro",
+   "slots": [
+    1,
+    5
+   ]
+  },
+  {
+   "name": "mac_race_female-old",
+   "kind": "macro",
+   "slots": [
+    1,
+    6
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-newborn-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    2,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-baby-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    3,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-child-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-child-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-child-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-child-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-child-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-child-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-child-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-child-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-child-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-child-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-child-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-child-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-child-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-child-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-child-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-child-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-child-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-child-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-young-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-young-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-young-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-young-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-young-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-young-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-young-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-young-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-young-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-young-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-young-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-young-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-young-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-young-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-young-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-young-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-young-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-young-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-old-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-old-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-old-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-old-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-old-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-old-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-old-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-old-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-old-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-old-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-old-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-old-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-old-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-old-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-old-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-old-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_male-old-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_male-old-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-newborn-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    2,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-baby-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    3,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-child-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-child-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-child-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-child-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-child-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-child-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-child-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-child-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-child-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-child-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-child-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-child-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-child-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-child-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-child-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-child-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-child-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-child-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-young-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-young-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-young-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-young-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-young-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-young-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-young-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-young-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-young-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-young-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-young-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-young-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-young-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-young-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-young-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-young-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-young-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-young-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-old-minmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-old-minmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-old-minmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-old-minmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-old-minmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-old-minmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-old-averagemuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-old-averagemuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-old-averagemuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-old-averagemuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-old-averagemuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-old-averagemuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-old-maxmuscle-minweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-old-maxmuscle-minweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-old-maxmuscle-averageweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-old-maxmuscle-averageweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    11,
+    14
+   ]
+  },
+  {
+   "name": "mac_height_female-old-maxmuscle-maxweight-minheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "mac_height_female-old-maxmuscle-maxweight-maxheight",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-minmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-minmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-minmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-minmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-minmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-minmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    7,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-averagemuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-averagemuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-averagemuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-averagemuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-averagemuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-averagemuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    8,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-maxmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-maxmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-maxmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-maxmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-maxmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-child-maxmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    4,
+    9,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-minmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-minmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-minmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-minmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-minmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-minmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    7,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-averagemuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-averagemuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-averagemuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-averagemuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-averagemuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-averagemuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    8,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-maxmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-maxmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-maxmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-maxmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-maxmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-young-maxmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    5,
+    9,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-minmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-minmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-minmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-minmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-minmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-minmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    7,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-averagemuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-averagemuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-averagemuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-averagemuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-averagemuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-averagemuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    8,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-maxmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-maxmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-maxmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-maxmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-maxmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_male-old-maxmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    0,
+    6,
+    9,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-minmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-minmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-minmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-minmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-minmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-minmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    7,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-averagemuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-averagemuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-averagemuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-averagemuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-averagemuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-averagemuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    8,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-maxmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-maxmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-maxmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-maxmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-maxmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-child-maxmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    4,
+    9,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-minmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-minmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-minmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-minmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-minmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-minmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    7,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-averagemuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-averagemuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-averagemuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-averagemuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-averagemuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-averagemuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    8,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-maxmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-maxmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-maxmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-maxmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-maxmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-young-maxmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    5,
+    9,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-minmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-minmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-minmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-minmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-minmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-minmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    7,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-averagemuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-averagemuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-averagemuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-averagemuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-averagemuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-averagemuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    8,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-maxmuscle-minweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    10,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-maxmuscle-minweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    10,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-maxmuscle-averageweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-maxmuscle-averageweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    11,
+    16
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-maxmuscle-maxweight-idealproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "mac_proportions_female-old-maxmuscle-maxweight-uncommonproportions",
+   "kind": "macro",
+   "slots": [
+    1,
+    6,
+    9,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "au04_brow_lowerer_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au04_brow_lowerer_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au01_inner_brow_raiser",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au02_outer_brow_raiser_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au02_outer_brow_raiser_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "ad34_cheek_puff",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au06_cheek_raiser_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au06_cheek_raiser_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au45_blink_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au45_blink_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "m64_eyes_down_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "m64_eyes_down_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "m62_eyes_right_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "m61_eyes_left_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "m61_eyes_left_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "m62_eyes_right_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "m63_eyes_up_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "m63_eyes_up_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au07_lid_tightener_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au07_lid_tightener_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au05_upper_lid_raiser_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au05_upper_lid_raiser_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "ad29_jaw_thrust",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "ad30_jaw_sideways_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au26_jaw_drop",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "ad30_jaw_sideways_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au08_lips_toward",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au14_dimpler_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au14_dimpler_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au15_lip_corner_depressor_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au15_lip_corner_depressor_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au22_lip_funneler",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "lips_sideways_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au16_lower_lip_depressor_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au16_lower_lip_depressor_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au24_lip_presser_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au24_lip_presser_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au18_lip_pucker",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "lips_sideways_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au28_lip_suck_lower",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au28_lip_suck_upper",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au17_chin_raiser_lower",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au17_chin_raiser_upper",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au12_lip_corner_puller_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au12_lip_corner_puller_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au20_lip_stretcher_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au20_lip_stretcher_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au10_upper_lip_raiser_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au10_upper_lip_raiser_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au09_nose_wrinkler_l",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "au09_nose_wrinkler_r",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "ad19_tongue_show",
+   "kind": "facial",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerarm-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerarm-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerarm-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerarm-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperarm-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperarm-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperarm-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperarm-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperarm-fat-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperarm-fat-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperarm-fat-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperarm-fat-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-upperarm-length-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-upperarm-length-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerarm-fat-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerarm-fat-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerarm-fat-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerarm-fat-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerarm-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerarm-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerarm-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerarm-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerarm-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerarm-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerarm-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerarm-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperarm-shoulder-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperarm-shoulder-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperarm-shoulder-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperarm-shoulder-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-upperarm-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-upperarm-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperarm-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperarm-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperarm-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperarm-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerarm-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerarm-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerarm-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerarm-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-lowerarm-length-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-lowerarm-length-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperarm-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperarm-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperarm-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperarm-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperarm-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperarm-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperarm-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperarm-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_breast-point-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_breast-point-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_breast-dist-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_breast-dist-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_breast-volume-vert-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_breast-volume-vert-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_breast-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_breast-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_buttocks-volume-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_buttocks-volume-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-cheek-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-cheek-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-cheek-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-cheek-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-cheek-volume-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-cheek-volume-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-cheek-volume-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-cheek-volume-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-cheek-inner-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-cheek-inner-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-cheek-inner-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-cheek-inner-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-cheek-bones-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-cheek-bones-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-cheek-bones-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-cheek-bones-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_chin-jaw-drop-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_chin-jaw-drop-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_chin-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_chin-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_chin-prominent-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_chin-prominent-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_chin-bones-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_chin-bones-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_chin-width-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_chin-width-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_chin-cleft-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_chin-cleft-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_chin-prognathism-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_chin-prognathism-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-lobe-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-lobe-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-lobe-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-lobe-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-shape-round",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-shape-square",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-shape-round",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-shape-square",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-rot-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-rot-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-rot-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-rot-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-flap-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-flap-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-flap-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-flap-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-shape-triangle",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-shape-pointed",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-shape-triangle",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-shape-pointed",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-scale-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-scale-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-scale-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-scale-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-ear-wing-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-ear-wing-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-ear-wing-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-ear-wing-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_eyebrows-angle-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_eyebrows-angle-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_eyebrows-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_eyebrows-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_eyebrows-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_eyebrows-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-corner1-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-corner1-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-corner1-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-corner1-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-height1-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-height1-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-height1-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-height1-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-scale-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-scale-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-scale-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-scale-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-push1-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-push1-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-push1-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-push1-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-eyefold-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-eyefold-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-eyefold-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-eyefold-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-height3-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-height3-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-height3-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-height3-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-height2-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-height2-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-height2-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-height2-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-bag-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-bag-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-bag-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-bag-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-push2-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-push2-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-push2-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-push2-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-bag-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-bag-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-bag-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-bag-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-epicanthus-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-epicanthus-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-epicanthus-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-epicanthus-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-eyefold-angle-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-eyefold-angle-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-eyefold-angle-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-eyefold-angle-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-bag-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-bag-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-bag-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-bag-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-corner2-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-corner2-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-corner2-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-corner2-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-eye-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-eye-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-eye-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-eye-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-foot-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-foot-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-foot-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-foot-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-foot-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-foot-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-foot-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-foot-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-foot-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-foot-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-foot-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-foot-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-foot-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-foot-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-foot-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-foot-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-foot-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-foot-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-foot-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-foot-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-foot-scale-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-foot-scale-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-foot-scale-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-foot-scale-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-foot-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-foot-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-foot-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-foot-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-ankle-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-ankle-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_forehead-temple-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_forehead-temple-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_forehead-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_forehead-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_forehead-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_forehead-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_forehead-nubian-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_forehead-nubian-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-hand-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-hand-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-hand-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-hand-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-hand-fingers-length-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-hand-fingers-length-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-hand-fingers-length-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-hand-fingers-length-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-hand-scale-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-hand-scale-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-hand-scale-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-hand-scale-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-hand-fingers-diameter-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-hand-fingers-diameter-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-hand-fingers-diameter-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-hand-fingers-diameter-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-hand-fingers-distance-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-hand-fingers-distance-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-hand-fingers-distance-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-hand-fingers-distance-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-wrist-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-wrist-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-angle-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-angle-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-fat-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-fat-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-back-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-back-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-age-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-age-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_head-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_head-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_hip-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_hip-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_hip-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_hip-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_hip-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_hip-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_hip-waist-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_hip-waist-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_hip-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_hip-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_hip-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_hip-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_hip-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_hip-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-calf-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-calf-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-lowerleg-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-lowerleg-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperleg-fat-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperleg-fat-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperleg-fat-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperleg-fat-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerleg-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerleg-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerleg-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerleg-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-leg-valgus-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-leg-valgus-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-leg-valgus-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-leg-valgus-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerleg-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerleg-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerleg-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerleg-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerleg-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerleg-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerleg-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerleg-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperleg-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperleg-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperleg-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperleg-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperleg-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperleg-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperleg-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperleg-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_upperlegs-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_upperlegs-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerleg-fat-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerleg-fat-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerleg-fat-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerleg-fat-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-lowerleg-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-lowerleg-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-lowerleg-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-lowerleg-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_lowerlegs-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_lowerlegs-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-upperleg-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-upperleg-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperleg-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperleg-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperleg-muscle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperleg-muscle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-knee-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-knee-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-thigh-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-thigh-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_l-upperleg-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_l-upperleg-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_r-upperleg-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_r-upperleg-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-lowerlip-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-lowerlip-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-cupidsbow-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-cupidsbow-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-laugh-lines-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-laugh-lines-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-lowerlip-volume-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-lowerlip-volume-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-angles-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-angles-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-upperlip-ext-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-upperlip-ext-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-lowerlip-width-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-lowerlip-width-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-upperlip-width-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-upperlip-width-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-dimples-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-dimples-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-upperlip-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-upperlip-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-upperlip-volume-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-upperlip-volume-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-cupidsbow-width-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-cupidsbow-width-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-lowerlip-ext-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-lowerlip-ext-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-upperlip-middle-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-upperlip-middle-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-lowerlip-middle-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-lowerlip-middle-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_mouth-philtrum-volume-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_mouth-philtrum-volume-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-neck-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-neck-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-neck-height-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-neck-height-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_neck-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_neck-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_neck-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_neck-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_neck-double-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_neck-double-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_neck-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_neck-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_neck-back-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_neck-back-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_neck-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_neck-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_neck-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_neck-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_neck-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_neck-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-nostrils-angle-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-nostrils-angle-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-flaring-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-flaring-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-curve-convex",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-curve-concave",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-point-width-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-point-width-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-width1-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-width1-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-hump-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-hump-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-nostrils-width-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-nostrils-width-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-trans-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-greek-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-greek-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-point-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-point-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-width2-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-width2-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-width3-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-width3-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-septumangle-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-septumangle-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-base-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-base-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-compression-uncompress",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-compression-compress",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_nose-volume-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_nose-volume-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_bulge-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_bulge-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_pelvis-tone-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_pelvis-tone-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_stomach-pregnant-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_stomach-pregnant-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_stomach-navel-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_stomach-navel-in",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_stomach-navel-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_stomach-navel-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_stomach-tone-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_stomach-tone-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_torso-trans-forward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_torso-trans-backward",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_torso-muscle-pectoral-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_torso-muscle-pectoral-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-underbust-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-underbust-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_torso-scale-horiz-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_torso-scale-horiz-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_torso-scale-depth-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_torso-scale-depth-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-napetowaist-dist-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-napetowaist-dist-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-waisttohip-dist-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-waisttohip-dist-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-shoulder-dist-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-shoulder-dist-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-hips-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-hips-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_torso-vshape-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_torso-vshape-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_torso-trans-up",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_torso-trans-down",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_torso-muscle-dorsi-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_torso-muscle-dorsi-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-waist-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-waist-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-frontchest-dist-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-frontchest-dist-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_torso-scale-vert-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_torso-scale-vert-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_measure-bust-circ-incr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_measure-bust-circ-decr",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_pos_torso-trans-out",
+   "kind": "local",
+   "slots": null
+  },
+  {
+   "name": "lc_neg_torso-trans-in",
+   "kind": "local",
+   "slots": null
+  }
+ ],
+ "local_dials": [
+  {
+   "name": "l-lowerarm-scale-depth-incr",
+   "group": "arms",
+   "pos": 440,
+   "neg": 441
+  },
+  {
+   "name": "r-lowerarm-scale-depth-incr",
+   "group": "arms",
+   "pos": 442,
+   "neg": 443
+  },
+  {
+   "name": "l-upperarm-scale-horiz-incr",
+   "group": "arms",
+   "pos": 444,
+   "neg": 445
+  },
+  {
+   "name": "r-upperarm-scale-horiz-incr",
+   "group": "arms",
+   "pos": 446,
+   "neg": 447
+  },
+  {
+   "name": "l-upperarm-fat-incr",
+   "group": "arms",
+   "pos": 448,
+   "neg": 449
+  },
+  {
+   "name": "r-upperarm-fat-incr",
+   "group": "arms",
+   "pos": 450,
+   "neg": 451
+  },
+  {
+   "name": "measure-upperarm-length-incr",
+   "group": "arms",
+   "pos": 452,
+   "neg": 453
+  },
+  {
+   "name": "l-lowerarm-fat-incr",
+   "group": "arms",
+   "pos": 454,
+   "neg": 455
+  },
+  {
+   "name": "r-lowerarm-fat-incr",
+   "group": "arms",
+   "pos": 456,
+   "neg": 457
+  },
+  {
+   "name": "l-lowerarm-scale-horiz-incr",
+   "group": "arms",
+   "pos": 458,
+   "neg": 459
+  },
+  {
+   "name": "r-lowerarm-scale-horiz-incr",
+   "group": "arms",
+   "pos": 460,
+   "neg": 461
+  },
+  {
+   "name": "l-lowerarm-muscle-incr",
+   "group": "arms",
+   "pos": 462,
+   "neg": 463
+  },
+  {
+   "name": "r-lowerarm-muscle-incr",
+   "group": "arms",
+   "pos": 464,
+   "neg": 465
+  },
+  {
+   "name": "l-upperarm-shoulder-muscle-incr",
+   "group": "arms",
+   "pos": 466,
+   "neg": 467
+  },
+  {
+   "name": "r-upperarm-shoulder-muscle-incr",
+   "group": "arms",
+   "pos": 468,
+   "neg": 469
+  },
+  {
+   "name": "measure-upperarm-circ-incr",
+   "group": "arms",
+   "pos": 470,
+   "neg": 471
+  },
+  {
+   "name": "l-upperarm-scale-depth-incr",
+   "group": "arms",
+   "pos": 472,
+   "neg": 473
+  },
+  {
+   "name": "r-upperarm-scale-depth-incr",
+   "group": "arms",
+   "pos": 474,
+   "neg": 475
+  },
+  {
+   "name": "l-lowerarm-scale-vert-incr",
+   "group": "arms",
+   "pos": 476,
+   "neg": 477
+  },
+  {
+   "name": "r-lowerarm-scale-vert-incr",
+   "group": "arms",
+   "pos": 478,
+   "neg": 479
+  },
+  {
+   "name": "measure-lowerarm-length-incr",
+   "group": "arms",
+   "pos": 480,
+   "neg": 481
+  },
+  {
+   "name": "l-upperarm-muscle-incr",
+   "group": "arms",
+   "pos": 482,
+   "neg": 483
+  },
+  {
+   "name": "r-upperarm-muscle-incr",
+   "group": "arms",
+   "pos": 484,
+   "neg": 485
+  },
+  {
+   "name": "l-upperarm-scale-vert-incr",
+   "group": "arms",
+   "pos": 486,
+   "neg": 487
+  },
+  {
+   "name": "r-upperarm-scale-vert-incr",
+   "group": "arms",
+   "pos": 488,
+   "neg": 489
+  },
+  {
+   "name": "breast-point-incr",
+   "group": "breast",
+   "pos": 490,
+   "neg": 491
+  },
+  {
+   "name": "breast-dist-incr",
+   "group": "breast",
+   "pos": 492,
+   "neg": 493
+  },
+  {
+   "name": "breast-volume-vert-up",
+   "group": "breast",
+   "pos": 494,
+   "neg": 495
+  },
+  {
+   "name": "breast-trans-up",
+   "group": "breast",
+   "pos": 496,
+   "neg": 497
+  },
+  {
+   "name": "buttocks-volume-incr",
+   "group": "buttocks",
+   "pos": 498,
+   "neg": 499
+  },
+  {
+   "name": "l-cheek-trans-up",
+   "group": "cheek",
+   "pos": 500,
+   "neg": 501
+  },
+  {
+   "name": "r-cheek-trans-up",
+   "group": "cheek",
+   "pos": 502,
+   "neg": 503
+  },
+  {
+   "name": "l-cheek-volume-incr",
+   "group": "cheek",
+   "pos": 504,
+   "neg": 505
+  },
+  {
+   "name": "r-cheek-volume-incr",
+   "group": "cheek",
+   "pos": 506,
+   "neg": 507
+  },
+  {
+   "name": "l-cheek-inner-incr",
+   "group": "cheek",
+   "pos": 508,
+   "neg": 509
+  },
+  {
+   "name": "r-cheek-inner-incr",
+   "group": "cheek",
+   "pos": 510,
+   "neg": 511
+  },
+  {
+   "name": "l-cheek-bones-incr",
+   "group": "cheek",
+   "pos": 512,
+   "neg": 513
+  },
+  {
+   "name": "r-cheek-bones-incr",
+   "group": "cheek",
+   "pos": 514,
+   "neg": 515
+  },
+  {
+   "name": "chin-jaw-drop-incr",
+   "group": "chin",
+   "pos": 516,
+   "neg": 517
+  },
+  {
+   "name": "chin-height-incr",
+   "group": "chin",
+   "pos": 518,
+   "neg": 519
+  },
+  {
+   "name": "chin-prominent-incr",
+   "group": "chin",
+   "pos": 520,
+   "neg": 521
+  },
+  {
+   "name": "chin-bones-incr",
+   "group": "chin",
+   "pos": 522,
+   "neg": 523
+  },
+  {
+   "name": "chin-width-incr",
+   "group": "chin",
+   "pos": 524,
+   "neg": 525
+  },
+  {
+   "name": "chin-cleft-incr",
+   "group": "chin",
+   "pos": 526,
+   "neg": 527
+  },
+  {
+   "name": "chin-prognathism-incr",
+   "group": "chin",
+   "pos": 528,
+   "neg": 529
+  },
+  {
+   "name": "l-ear-lobe-incr",
+   "group": "ears",
+   "pos": 530,
+   "neg": 531
+  },
+  {
+   "name": "r-ear-lobe-incr",
+   "group": "ears",
+   "pos": 532,
+   "neg": 533
+  },
+  {
+   "name": "l-ear-shape-round",
+   "group": "ears",
+   "pos": 534,
+   "neg": 535
+  },
+  {
+   "name": "r-ear-shape-round",
+   "group": "ears",
+   "pos": 536,
+   "neg": 537
+  },
+  {
+   "name": "l-ear-trans-forward",
+   "group": "ears",
+   "pos": 538,
+   "neg": 539
+  },
+  {
+   "name": "r-ear-trans-forward",
+   "group": "ears",
+   "pos": 540,
+   "neg": 541
+  },
+  {
+   "name": "l-ear-rot-forward",
+   "group": "ears",
+   "pos": 542,
+   "neg": 543
+  },
+  {
+   "name": "r-ear-rot-forward",
+   "group": "ears",
+   "pos": 544,
+   "neg": 545
+  },
+  {
+   "name": "l-ear-trans-up",
+   "group": "ears",
+   "pos": 546,
+   "neg": 547
+  },
+  {
+   "name": "r-ear-trans-up",
+   "group": "ears",
+   "pos": 548,
+   "neg": 549
+  },
+  {
+   "name": "l-ear-scale-vert-incr",
+   "group": "ears",
+   "pos": 550,
+   "neg": 551
+  },
+  {
+   "name": "r-ear-scale-vert-incr",
+   "group": "ears",
+   "pos": 552,
+   "neg": 553
+  },
+  {
+   "name": "l-ear-flap-incr",
+   "group": "ears",
+   "pos": 554,
+   "neg": 555
+  },
+  {
+   "name": "r-ear-flap-incr",
+   "group": "ears",
+   "pos": 556,
+   "neg": 557
+  },
+  {
+   "name": "l-ear-shape-triangle",
+   "group": "ears",
+   "pos": 558,
+   "neg": 559
+  },
+  {
+   "name": "r-ear-shape-triangle",
+   "group": "ears",
+   "pos": 560,
+   "neg": 561
+  },
+  {
+   "name": "l-ear-scale-incr",
+   "group": "ears",
+   "pos": 562,
+   "neg": 563
+  },
+  {
+   "name": "r-ear-scale-incr",
+   "group": "ears",
+   "pos": 564,
+   "neg": 565
+  },
+  {
+   "name": "l-ear-scale-depth-incr",
+   "group": "ears",
+   "pos": 566,
+   "neg": 567
+  },
+  {
+   "name": "r-ear-scale-depth-incr",
+   "group": "ears",
+   "pos": 568,
+   "neg": 569
+  },
+  {
+   "name": "l-ear-wing-incr",
+   "group": "ears",
+   "pos": 570,
+   "neg": 571
+  },
+  {
+   "name": "r-ear-wing-incr",
+   "group": "ears",
+   "pos": 572,
+   "neg": 573
+  },
+  {
+   "name": "eyebrows-angle-up",
+   "group": "eyebrows",
+   "pos": 574,
+   "neg": 575
+  },
+  {
+   "name": "eyebrows-trans-up",
+   "group": "eyebrows",
+   "pos": 576,
+   "neg": 577
+  },
+  {
+   "name": "eyebrows-trans-forward",
+   "group": "eyebrows",
+   "pos": 578,
+   "neg": 579
+  },
+  {
+   "name": "l-eye-corner1-up",
+   "group": "eyes",
+   "pos": 580,
+   "neg": 581
+  },
+  {
+   "name": "r-eye-corner1-up",
+   "group": "eyes",
+   "pos": 582,
+   "neg": 583
+  },
+  {
+   "name": "l-eye-height1-incr",
+   "group": "eyes",
+   "pos": 584,
+   "neg": 585
+  },
+  {
+   "name": "r-eye-height1-incr",
+   "group": "eyes",
+   "pos": 586,
+   "neg": 587
+  },
+  {
+   "name": "l-eye-scale-incr",
+   "group": "eyes",
+   "pos": 588,
+   "neg": 589
+  },
+  {
+   "name": "r-eye-scale-incr",
+   "group": "eyes",
+   "pos": 590,
+   "neg": 591
+  },
+  {
+   "name": "l-eye-push1-out",
+   "group": "eyes",
+   "pos": 592,
+   "neg": 593
+  },
+  {
+   "name": "r-eye-push1-out",
+   "group": "eyes",
+   "pos": 594,
+   "neg": 595
+  },
+  {
+   "name": "l-eye-eyefold-up",
+   "group": "eyes",
+   "pos": 596,
+   "neg": 597
+  },
+  {
+   "name": "r-eye-eyefold-up",
+   "group": "eyes",
+   "pos": 598,
+   "neg": 599
+  },
+  {
+   "name": "l-eye-height3-incr",
+   "group": "eyes",
+   "pos": 600,
+   "neg": 601
+  },
+  {
+   "name": "r-eye-height3-incr",
+   "group": "eyes",
+   "pos": 602,
+   "neg": 603
+  },
+  {
+   "name": "l-eye-height2-incr",
+   "group": "eyes",
+   "pos": 604,
+   "neg": 605
+  },
+  {
+   "name": "r-eye-height2-incr",
+   "group": "eyes",
+   "pos": 606,
+   "neg": 607
+  },
+  {
+   "name": "l-eye-bag-incr",
+   "group": "eyes",
+   "pos": 608,
+   "neg": 609
+  },
+  {
+   "name": "r-eye-bag-incr",
+   "group": "eyes",
+   "pos": 610,
+   "neg": 611
+  },
+  {
+   "name": "l-eye-push2-out",
+   "group": "eyes",
+   "pos": 612,
+   "neg": 613
+  },
+  {
+   "name": "r-eye-push2-out",
+   "group": "eyes",
+   "pos": 614,
+   "neg": 615
+  },
+  {
+   "name": "l-eye-trans-up",
+   "group": "eyes",
+   "pos": 616,
+   "neg": 617
+  },
+  {
+   "name": "r-eye-trans-up",
+   "group": "eyes",
+   "pos": 618,
+   "neg": 619
+  },
+  {
+   "name": "l-eye-bag-height-incr",
+   "group": "eyes",
+   "pos": 620,
+   "neg": 621
+  },
+  {
+   "name": "r-eye-bag-height-incr",
+   "group": "eyes",
+   "pos": 622,
+   "neg": 623
+  },
+  {
+   "name": "l-eye-epicanthus-out",
+   "group": "eyes",
+   "pos": 624,
+   "neg": 625
+  },
+  {
+   "name": "r-eye-epicanthus-out",
+   "group": "eyes",
+   "pos": 626,
+   "neg": 627
+  },
+  {
+   "name": "l-eye-eyefold-angle-up",
+   "group": "eyes",
+   "pos": 628,
+   "neg": 629
+  },
+  {
+   "name": "r-eye-eyefold-angle-up",
+   "group": "eyes",
+   "pos": 630,
+   "neg": 631
+  },
+  {
+   "name": "l-eye-bag-out",
+   "group": "eyes",
+   "pos": 632,
+   "neg": 633
+  },
+  {
+   "name": "r-eye-bag-out",
+   "group": "eyes",
+   "pos": 634,
+   "neg": 635
+  },
+  {
+   "name": "l-eye-corner2-up",
+   "group": "eyes",
+   "pos": 636,
+   "neg": 637
+  },
+  {
+   "name": "r-eye-corner2-up",
+   "group": "eyes",
+   "pos": 638,
+   "neg": 639
+  },
+  {
+   "name": "l-eye-trans-out",
+   "group": "eyes",
+   "pos": 640,
+   "neg": 641
+  },
+  {
+   "name": "r-eye-trans-out",
+   "group": "eyes",
+   "pos": 642,
+   "neg": 643
+  },
+  {
+   "name": "l-foot-scale-horiz-incr",
+   "group": "feet",
+   "pos": 644,
+   "neg": 645
+  },
+  {
+   "name": "r-foot-scale-horiz-incr",
+   "group": "feet",
+   "pos": 646,
+   "neg": 647
+  },
+  {
+   "name": "l-foot-trans-out",
+   "group": "feet",
+   "pos": 648,
+   "neg": 649
+  },
+  {
+   "name": "r-foot-trans-out",
+   "group": "feet",
+   "pos": 650,
+   "neg": 651
+  },
+  {
+   "name": "l-foot-scale-vert-incr",
+   "group": "feet",
+   "pos": 652,
+   "neg": 653
+  },
+  {
+   "name": "r-foot-scale-vert-incr",
+   "group": "feet",
+   "pos": 654,
+   "neg": 655
+  },
+  {
+   "name": "l-foot-trans-forward",
+   "group": "feet",
+   "pos": 656,
+   "neg": 657
+  },
+  {
+   "name": "r-foot-trans-forward",
+   "group": "feet",
+   "pos": 658,
+   "neg": 659
+  },
+  {
+   "name": "l-foot-scale-depth-incr",
+   "group": "feet",
+   "pos": 660,
+   "neg": 661
+  },
+  {
+   "name": "r-foot-scale-depth-incr",
+   "group": "feet",
+   "pos": 662,
+   "neg": 663
+  },
+  {
+   "name": "l-foot-scale-incr",
+   "group": "feet",
+   "pos": 664,
+   "neg": 665
+  },
+  {
+   "name": "r-foot-scale-incr",
+   "group": "feet",
+   "pos": 666,
+   "neg": 667
+  },
+  {
+   "name": "l-foot-trans-up",
+   "group": "feet",
+   "pos": 668,
+   "neg": 669
+  },
+  {
+   "name": "r-foot-trans-up",
+   "group": "feet",
+   "pos": 670,
+   "neg": 671
+  },
+  {
+   "name": "measure-ankle-circ-incr",
+   "group": "feet",
+   "pos": 672,
+   "neg": 673
+  },
+  {
+   "name": "forehead-temple-incr",
+   "group": "forehead",
+   "pos": 674,
+   "neg": 675
+  },
+  {
+   "name": "forehead-trans-forward",
+   "group": "forehead",
+   "pos": 676,
+   "neg": 677
+  },
+  {
+   "name": "forehead-scale-vert-incr",
+   "group": "forehead",
+   "pos": 678,
+   "neg": 679
+  },
+  {
+   "name": "forehead-nubian-incr",
+   "group": "forehead",
+   "pos": 680,
+   "neg": 681
+  },
+  {
+   "name": "l-hand-trans-out",
+   "group": "hands",
+   "pos": 682,
+   "neg": 683
+  },
+  {
+   "name": "r-hand-trans-out",
+   "group": "hands",
+   "pos": 684,
+   "neg": 685
+  },
+  {
+   "name": "l-hand-fingers-length-incr",
+   "group": "hands",
+   "pos": 686,
+   "neg": 687
+  },
+  {
+   "name": "r-hand-fingers-length-incr",
+   "group": "hands",
+   "pos": 688,
+   "neg": 689
+  },
+  {
+   "name": "l-hand-scale-incr",
+   "group": "hands",
+   "pos": 690,
+   "neg": 691
+  },
+  {
+   "name": "r-hand-scale-incr",
+   "group": "hands",
+   "pos": 692,
+   "neg": 693
+  },
+  {
+   "name": "l-hand-fingers-diameter-incr",
+   "group": "hands",
+   "pos": 694,
+   "neg": 695
+  },
+  {
+   "name": "r-hand-fingers-diameter-incr",
+   "group": "hands",
+   "pos": 696,
+   "neg": 697
+  },
+  {
+   "name": "l-hand-fingers-distance-incr",
+   "group": "hands",
+   "pos": 698,
+   "neg": 699
+  },
+  {
+   "name": "r-hand-fingers-distance-incr",
+   "group": "hands",
+   "pos": 700,
+   "neg": 701
+  },
+  {
+   "name": "measure-wrist-circ-incr",
+   "group": "hands",
+   "pos": 702,
+   "neg": 703
+  },
+  {
+   "name": "head-angle-out",
+   "group": "head",
+   "pos": 704,
+   "neg": 705
+  },
+  {
+   "name": "head-scale-vert-incr",
+   "group": "head",
+   "pos": 706,
+   "neg": 707
+  },
+  {
+   "name": "head-trans-forward",
+   "group": "head",
+   "pos": 708,
+   "neg": 709
+  },
+  {
+   "name": "head-trans-up",
+   "group": "head",
+   "pos": 710,
+   "neg": 711
+  },
+  {
+   "name": "head-fat-incr",
+   "group": "head",
+   "pos": 712,
+   "neg": 713
+  },
+  {
+   "name": "head-trans-out",
+   "group": "head",
+   "pos": 714,
+   "neg": 715
+  },
+  {
+   "name": "head-back-scale-depth-incr",
+   "group": "head",
+   "pos": 716,
+   "neg": 717
+  },
+  {
+   "name": "head-age-incr",
+   "group": "head",
+   "pos": 718,
+   "neg": 719
+  },
+  {
+   "name": "head-scale-depth-incr",
+   "group": "head",
+   "pos": 720,
+   "neg": 721
+  },
+  {
+   "name": "head-scale-horiz-incr",
+   "group": "head",
+   "pos": 722,
+   "neg": 723
+  },
+  {
+   "name": "hip-trans-out",
+   "group": "hip",
+   "pos": 724,
+   "neg": 725
+  },
+  {
+   "name": "hip-scale-horiz-incr",
+   "group": "hip",
+   "pos": 726,
+   "neg": 727
+  },
+  {
+   "name": "hip-scale-depth-incr",
+   "group": "hip",
+   "pos": 728,
+   "neg": 729
+  },
+  {
+   "name": "hip-waist-up",
+   "group": "hip",
+   "pos": 730,
+   "neg": 731
+  },
+  {
+   "name": "hip-trans-forward",
+   "group": "hip",
+   "pos": 732,
+   "neg": 733
+  },
+  {
+   "name": "hip-scale-vert-incr",
+   "group": "hip",
+   "pos": 734,
+   "neg": 735
+  },
+  {
+   "name": "hip-trans-up",
+   "group": "hip",
+   "pos": 736,
+   "neg": 737
+  },
+  {
+   "name": "measure-calf-circ-incr",
+   "group": "legs",
+   "pos": 738,
+   "neg": 739
+  },
+  {
+   "name": "measure-lowerleg-height-incr",
+   "group": "legs",
+   "pos": 740,
+   "neg": 741
+  },
+  {
+   "name": "l-upperleg-fat-incr",
+   "group": "legs",
+   "pos": 742,
+   "neg": 743
+  },
+  {
+   "name": "r-upperleg-fat-incr",
+   "group": "legs",
+   "pos": 744,
+   "neg": 745
+  },
+  {
+   "name": "l-lowerleg-muscle-incr",
+   "group": "legs",
+   "pos": 746,
+   "neg": 747
+  },
+  {
+   "name": "r-lowerleg-muscle-incr",
+   "group": "legs",
+   "pos": 748,
+   "neg": 749
+  },
+  {
+   "name": "l-leg-valgus-incr",
+   "group": "legs",
+   "pos": 750,
+   "neg": 751
+  },
+  {
+   "name": "r-leg-valgus-incr",
+   "group": "legs",
+   "pos": 752,
+   "neg": 753
+  },
+  {
+   "name": "l-lowerleg-scale-depth-incr",
+   "group": "legs",
+   "pos": 754,
+   "neg": 755
+  },
+  {
+   "name": "r-lowerleg-scale-depth-incr",
+   "group": "legs",
+   "pos": 756,
+   "neg": 757
+  },
+  {
+   "name": "l-lowerleg-scale-vert-incr",
+   "group": "legs",
+   "pos": 758,
+   "neg": 759
+  },
+  {
+   "name": "r-lowerleg-scale-vert-incr",
+   "group": "legs",
+   "pos": 760,
+   "neg": 761
+  },
+  {
+   "name": "l-upperleg-scale-depth-incr",
+   "group": "legs",
+   "pos": 762,
+   "neg": 763
+  },
+  {
+   "name": "r-upperleg-scale-depth-incr",
+   "group": "legs",
+   "pos": 764,
+   "neg": 765
+  },
+  {
+   "name": "l-upperleg-scale-horiz-incr",
+   "group": "legs",
+   "pos": 766,
+   "neg": 767
+  },
+  {
+   "name": "r-upperleg-scale-horiz-incr",
+   "group": "legs",
+   "pos": 768,
+   "neg": 769
+  },
+  {
+   "name": "upperlegs-height-incr",
+   "group": "legs",
+   "pos": 770,
+   "neg": 771
+  },
+  {
+   "name": "l-lowerleg-fat-incr",
+   "group": "legs",
+   "pos": 772,
+   "neg": 773
+  },
+  {
+   "name": "r-lowerleg-fat-incr",
+   "group": "legs",
+   "pos": 774,
+   "neg": 775
+  },
+  {
+   "name": "l-lowerleg-scale-horiz-incr",
+   "group": "legs",
+   "pos": 776,
+   "neg": 777
+  },
+  {
+   "name": "r-lowerleg-scale-horiz-incr",
+   "group": "legs",
+   "pos": 778,
+   "neg": 779
+  },
+  {
+   "name": "lowerlegs-height-incr",
+   "group": "legs",
+   "pos": 780,
+   "neg": 781
+  },
+  {
+   "name": "measure-upperleg-height-incr",
+   "group": "legs",
+   "pos": 782,
+   "neg": 783
+  },
+  {
+   "name": "l-upperleg-muscle-incr",
+   "group": "legs",
+   "pos": 784,
+   "neg": 785
+  },
+  {
+   "name": "r-upperleg-muscle-incr",
+   "group": "legs",
+   "pos": 786,
+   "neg": 787
+  },
+  {
+   "name": "measure-knee-circ-incr",
+   "group": "legs",
+   "pos": 788,
+   "neg": 789
+  },
+  {
+   "name": "measure-thigh-circ-incr",
+   "group": "legs",
+   "pos": 790,
+   "neg": 791
+  },
+  {
+   "name": "l-upperleg-scale-vert-incr",
+   "group": "legs",
+   "pos": 792,
+   "neg": 793
+  },
+  {
+   "name": "r-upperleg-scale-vert-incr",
+   "group": "legs",
+   "pos": 794,
+   "neg": 795
+  },
+  {
+   "name": "mouth-lowerlip-height-incr",
+   "group": "mouth",
+   "pos": 796,
+   "neg": 797
+  },
+  {
+   "name": "mouth-scale-horiz-incr",
+   "group": "mouth",
+   "pos": 798,
+   "neg": 799
+  },
+  {
+   "name": "mouth-cupidsbow-incr",
+   "group": "mouth",
+   "pos": 800,
+   "neg": 801
+  },
+  {
+   "name": "mouth-laugh-lines-out",
+   "group": "mouth",
+   "pos": 802,
+   "neg": 803
+  },
+  {
+   "name": "mouth-scale-depth-incr",
+   "group": "mouth",
+   "pos": 804,
+   "neg": 805
+  },
+  {
+   "name": "mouth-lowerlip-volume-incr",
+   "group": "mouth",
+   "pos": 806,
+   "neg": 807
+  },
+  {
+   "name": "mouth-angles-up",
+   "group": "mouth",
+   "pos": 808,
+   "neg": 809
+  },
+  {
+   "name": "mouth-upperlip-ext-up",
+   "group": "mouth",
+   "pos": 810,
+   "neg": 811
+  },
+  {
+   "name": "mouth-lowerlip-width-incr",
+   "group": "mouth",
+   "pos": 812,
+   "neg": 813
+  },
+  {
+   "name": "mouth-trans-forward",
+   "group": "mouth",
+   "pos": 814,
+   "neg": 815
+  },
+  {
+   "name": "mouth-upperlip-width-incr",
+   "group": "mouth",
+   "pos": 816,
+   "neg": 817
+  },
+  {
+   "name": "mouth-scale-vert-incr",
+   "group": "mouth",
+   "pos": 818,
+   "neg": 819
+  },
+  {
+   "name": "mouth-dimples-out",
+   "group": "mouth",
+   "pos": 820,
+   "neg": 821
+  },
+  {
+   "name": "mouth-upperlip-height-incr",
+   "group": "mouth",
+   "pos": 822,
+   "neg": 823
+  },
+  {
+   "name": "mouth-upperlip-volume-incr",
+   "group": "mouth",
+   "pos": 824,
+   "neg": 825
+  },
+  {
+   "name": "mouth-cupidsbow-width-incr",
+   "group": "mouth",
+   "pos": 826,
+   "neg": 827
+  },
+  {
+   "name": "mouth-lowerlip-ext-up",
+   "group": "mouth",
+   "pos": 828,
+   "neg": 829
+  },
+  {
+   "name": "mouth-upperlip-middle-up",
+   "group": "mouth",
+   "pos": 830,
+   "neg": 831
+  },
+  {
+   "name": "mouth-trans-up",
+   "group": "mouth",
+   "pos": 832,
+   "neg": 833
+  },
+  {
+   "name": "mouth-trans-out",
+   "group": "mouth",
+   "pos": 834,
+   "neg": 835
+  },
+  {
+   "name": "mouth-lowerlip-middle-up",
+   "group": "mouth",
+   "pos": 836,
+   "neg": 837
+  },
+  {
+   "name": "mouth-philtrum-volume-incr",
+   "group": "mouth",
+   "pos": 838,
+   "neg": 839
+  },
+  {
+   "name": "measure-neck-circ-incr",
+   "group": "neck",
+   "pos": 840,
+   "neg": 841
+  },
+  {
+   "name": "measure-neck-height-incr",
+   "group": "neck",
+   "pos": 842,
+   "neg": 843
+  },
+  {
+   "name": "neck-scale-depth-incr",
+   "group": "neck",
+   "pos": 844,
+   "neg": 845
+  },
+  {
+   "name": "neck-trans-forward",
+   "group": "neck",
+   "pos": 846,
+   "neg": 847
+  },
+  {
+   "name": "neck-double-incr",
+   "group": "neck",
+   "pos": 848,
+   "neg": 849
+  },
+  {
+   "name": "neck-trans-out",
+   "group": "neck",
+   "pos": 850,
+   "neg": 851
+  },
+  {
+   "name": "neck-back-scale-depth-incr",
+   "group": "neck",
+   "pos": 852,
+   "neg": 853
+  },
+  {
+   "name": "neck-scale-horiz-incr",
+   "group": "neck",
+   "pos": 854,
+   "neg": 855
+  },
+  {
+   "name": "neck-scale-vert-incr",
+   "group": "neck",
+   "pos": 856,
+   "neg": 857
+  },
+  {
+   "name": "neck-trans-up",
+   "group": "neck",
+   "pos": 858,
+   "neg": 859
+  },
+  {
+   "name": "nose-nostrils-angle-up",
+   "group": "nose",
+   "pos": 860,
+   "neg": 861
+  },
+  {
+   "name": "nose-flaring-incr",
+   "group": "nose",
+   "pos": 862,
+   "neg": 863
+  },
+  {
+   "name": "nose-curve-convex",
+   "group": "nose",
+   "pos": 864,
+   "neg": 865
+  },
+  {
+   "name": "nose-scale-depth-incr",
+   "group": "nose",
+   "pos": 866,
+   "neg": 867
+  },
+  {
+   "name": "nose-scale-vert-incr",
+   "group": "nose",
+   "pos": 868,
+   "neg": 869
+  },
+  {
+   "name": "nose-point-width-incr",
+   "group": "nose",
+   "pos": 870,
+   "neg": 871
+  },
+  {
+   "name": "nose-scale-horiz-incr",
+   "group": "nose",
+   "pos": 872,
+   "neg": 873
+  },
+  {
+   "name": "nose-width1-incr",
+   "group": "nose",
+   "pos": 874,
+   "neg": 875
+  },
+  {
+   "name": "nose-trans-forward",
+   "group": "nose",
+   "pos": 876,
+   "neg": 877
+  },
+  {
+   "name": "nose-trans-up",
+   "group": "nose",
+   "pos": 878,
+   "neg": 879
+  },
+  {
+   "name": "nose-hump-incr",
+   "group": "nose",
+   "pos": 880,
+   "neg": 881
+  },
+  {
+   "name": "nose-nostrils-width-incr",
+   "group": "nose",
+   "pos": 882,
+   "neg": 883
+  },
+  {
+   "name": "nose-trans-out",
+   "group": "nose",
+   "pos": 884,
+   "neg": 885
+  },
+  {
+   "name": "nose-greek-incr",
+   "group": "nose",
+   "pos": 886,
+   "neg": 887
+  },
+  {
+   "name": "nose-point-up",
+   "group": "nose",
+   "pos": 888,
+   "neg": 889
+  },
+  {
+   "name": "nose-width2-incr",
+   "group": "nose",
+   "pos": 890,
+   "neg": 891
+  },
+  {
+   "name": "nose-width3-incr",
+   "group": "nose",
+   "pos": 892,
+   "neg": 893
+  },
+  {
+   "name": "nose-septumangle-incr",
+   "group": "nose",
+   "pos": 894,
+   "neg": 895
+  },
+  {
+   "name": "nose-base-up",
+   "group": "nose",
+   "pos": 896,
+   "neg": 897
+  },
+  {
+   "name": "nose-compression-uncompress",
+   "group": "nose",
+   "pos": 898,
+   "neg": 899
+  },
+  {
+   "name": "nose-volume-incr",
+   "group": "nose",
+   "pos": 900,
+   "neg": 901
+  },
+  {
+   "name": "bulge-incr",
+   "group": "pelvis",
+   "pos": 902,
+   "neg": 903
+  },
+  {
+   "name": "pelvis-tone-incr",
+   "group": "pelvis",
+   "pos": 904,
+   "neg": 905
+  },
+  {
+   "name": "stomach-pregnant-incr",
+   "group": "stomach",
+   "pos": 906,
+   "neg": 907
+  },
+  {
+   "name": "stomach-navel-out",
+   "group": "stomach",
+   "pos": 908,
+   "neg": 909
+  },
+  {
+   "name": "stomach-navel-up",
+   "group": "stomach",
+   "pos": 910,
+   "neg": 911
+  },
+  {
+   "name": "stomach-tone-incr",
+   "group": "stomach",
+   "pos": 912,
+   "neg": 913
+  },
+  {
+   "name": "torso-trans-forward",
+   "group": "torso",
+   "pos": 914,
+   "neg": 915
+  },
+  {
+   "name": "torso-muscle-pectoral-incr",
+   "group": "torso",
+   "pos": 916,
+   "neg": 917
+  },
+  {
+   "name": "measure-underbust-circ-incr",
+   "group": "torso",
+   "pos": 918,
+   "neg": 919
+  },
+  {
+   "name": "torso-scale-horiz-incr",
+   "group": "torso",
+   "pos": 920,
+   "neg": 921
+  },
+  {
+   "name": "torso-scale-depth-incr",
+   "group": "torso",
+   "pos": 922,
+   "neg": 923
+  },
+  {
+   "name": "measure-napetowaist-dist-incr",
+   "group": "torso",
+   "pos": 924,
+   "neg": 925
+  },
+  {
+   "name": "measure-waisttohip-dist-incr",
+   "group": "torso",
+   "pos": 926,
+   "neg": 927
+  },
+  {
+   "name": "measure-shoulder-dist-incr",
+   "group": "torso",
+   "pos": 928,
+   "neg": 929
+  },
+  {
+   "name": "measure-hips-circ-incr",
+   "group": "torso",
+   "pos": 930,
+   "neg": 931
+  },
+  {
+   "name": "torso-vshape-incr",
+   "group": "torso",
+   "pos": 932,
+   "neg": 933
+  },
+  {
+   "name": "torso-trans-up",
+   "group": "torso",
+   "pos": 934,
+   "neg": 935
+  },
+  {
+   "name": "torso-muscle-dorsi-incr",
+   "group": "torso",
+   "pos": 936,
+   "neg": 937
+  },
+  {
+   "name": "measure-waist-circ-incr",
+   "group": "torso",
+   "pos": 938,
+   "neg": 939
+  },
+  {
+   "name": "measure-frontchest-dist-incr",
+   "group": "torso",
+   "pos": 940,
+   "neg": 941
+  },
+  {
+   "name": "torso-scale-vert-incr",
+   "group": "torso",
+   "pos": 942,
+   "neg": 943
+  },
+  {
+   "name": "measure-bust-circ-incr",
+   "group": "torso",
+   "pos": 944,
+   "neg": 945
+  },
+  {
+   "name": "torso-trans-out",
+   "group": "torso",
+   "pos": 946,
+   "neg": 947
+  }
+ ],
+ "facial": [
+  {
+   "source": "browDownLeft",
+   "name": "au04_brow_lowerer_l",
+   "index": 388
+  },
+  {
+   "source": "browDownRight",
+   "name": "au04_brow_lowerer_r",
+   "index": 389
+  },
+  {
+   "source": "browInnerUp",
+   "name": "au01_inner_brow_raiser",
+   "index": 390
+  },
+  {
+   "source": "browOuterUpLeft",
+   "name": "au02_outer_brow_raiser_l",
+   "index": 391
+  },
+  {
+   "source": "browOuterUpRight",
+   "name": "au02_outer_brow_raiser_r",
+   "index": 392
+  },
+  {
+   "source": "cheekPuff",
+   "name": "ad34_cheek_puff",
+   "index": 393
+  },
+  {
+   "source": "cheekSquintLeft",
+   "name": "au06_cheek_raiser_l",
+   "index": 394
+  },
+  {
+   "source": "cheekSquintRight",
+   "name": "au06_cheek_raiser_r",
+   "index": 395
+  },
+  {
+   "source": "eyeBlinkLeft",
+   "name": "au45_blink_l",
+   "index": 396
+  },
+  {
+   "source": "eyeBlinkRight",
+   "name": "au45_blink_r",
+   "index": 397
+  },
+  {
+   "source": "eyeLookDownLeft",
+   "name": "m64_eyes_down_l",
+   "index": 398
+  },
+  {
+   "source": "eyeLookDownRight",
+   "name": "m64_eyes_down_r",
+   "index": 399
+  },
+  {
+   "source": "eyeLookInLeft",
+   "name": "m62_eyes_right_l",
+   "index": 400
+  },
+  {
+   "source": "eyeLookInRight",
+   "name": "m61_eyes_left_r",
+   "index": 401
+  },
+  {
+   "source": "eyeLookOutLeft",
+   "name": "m61_eyes_left_l",
+   "index": 402
+  },
+  {
+   "source": "eyeLookOutRight",
+   "name": "m62_eyes_right_r",
+   "index": 403
+  },
+  {
+   "source": "eyeLookUpLeft",
+   "name": "m63_eyes_up_l",
+   "index": 404
+  },
+  {
+   "source": "eyeLookUpRight",
+   "name": "m63_eyes_up_r",
+   "index": 405
+  },
+  {
+   "source": "eyeSquintLeft",
+   "name": "au07_lid_tightener_l",
+   "index": 406
+  },
+  {
+   "source": "eyeSquintRight",
+   "name": "au07_lid_tightener_r",
+   "index": 407
+  },
+  {
+   "source": "eyeWideLeft",
+   "name": "au05_upper_lid_raiser_l",
+   "index": 408
+  },
+  {
+   "source": "eyeWideRight",
+   "name": "au05_upper_lid_raiser_r",
+   "index": 409
+  },
+  {
+   "source": "jawForward",
+   "name": "ad29_jaw_thrust",
+   "index": 410
+  },
+  {
+   "source": "jawLeft",
+   "name": "ad30_jaw_sideways_l",
+   "index": 411
+  },
+  {
+   "source": "jawOpen",
+   "name": "au26_jaw_drop",
+   "index": 412
+  },
+  {
+   "source": "jawRight",
+   "name": "ad30_jaw_sideways_r",
+   "index": 413
+  },
+  {
+   "source": "mouthClose",
+   "name": "au08_lips_toward",
+   "index": 414
+  },
+  {
+   "source": "mouthDimpleLeft",
+   "name": "au14_dimpler_l",
+   "index": 415
+  },
+  {
+   "source": "mouthDimpleRight",
+   "name": "au14_dimpler_r",
+   "index": 416
+  },
+  {
+   "source": "mouthFrownLeft",
+   "name": "au15_lip_corner_depressor_l",
+   "index": 417
+  },
+  {
+   "source": "mouthFrownRight",
+   "name": "au15_lip_corner_depressor_r",
+   "index": 418
+  },
+  {
+   "source": "mouthFunnel",
+   "name": "au22_lip_funneler",
+   "index": 419
+  },
+  {
+   "source": "mouthLeft",
+   "name": "lips_sideways_l",
+   "index": 420
+  },
+  {
+   "source": "mouthLowerDownLeft",
+   "name": "au16_lower_lip_depressor_l",
+   "index": 421
+  },
+  {
+   "source": "mouthLowerDownRight",
+   "name": "au16_lower_lip_depressor_r",
+   "index": 422
+  },
+  {
+   "source": "mouthPressLeft",
+   "name": "au24_lip_presser_l",
+   "index": 423
+  },
+  {
+   "source": "mouthPressRight",
+   "name": "au24_lip_presser_r",
+   "index": 424
+  },
+  {
+   "source": "mouthPucker",
+   "name": "au18_lip_pucker",
+   "index": 425
+  },
+  {
+   "source": "mouthRight",
+   "name": "lips_sideways_r",
+   "index": 426
+  },
+  {
+   "source": "mouthRollLower",
+   "name": "au28_lip_suck_lower",
+   "index": 427
+  },
+  {
+   "source": "mouthRollUpper",
+   "name": "au28_lip_suck_upper",
+   "index": 428
+  },
+  {
+   "source": "mouthShrugLower",
+   "name": "au17_chin_raiser_lower",
+   "index": 429
+  },
+  {
+   "source": "mouthShrugUpper",
+   "name": "au17_chin_raiser_upper",
+   "index": 430
+  },
+  {
+   "source": "mouthSmileLeft",
+   "name": "au12_lip_corner_puller_l",
+   "index": 431
+  },
+  {
+   "source": "mouthSmileRight",
+   "name": "au12_lip_corner_puller_r",
+   "index": 432
+  },
+  {
+   "source": "mouthStretchLeft",
+   "name": "au20_lip_stretcher_l",
+   "index": 433
+  },
+  {
+   "source": "mouthStretchRight",
+   "name": "au20_lip_stretcher_r",
+   "index": 434
+  },
+  {
+   "source": "mouthUpperUpLeft",
+   "name": "au10_upper_lip_raiser_l",
+   "index": 435
+  },
+  {
+   "source": "mouthUpperUpRight",
+   "name": "au10_upper_lip_raiser_r",
+   "index": 436
+  },
+  {
+   "source": "noseSneerLeft",
+   "name": "au09_nose_wrinkler_l",
+   "index": 437
+  },
+  {
+   "source": "noseSneerRight",
+   "name": "au09_nose_wrinkler_r",
+   "index": 438
+  },
+  {
+   "source": "tongueOut",
+   "name": "ad19_tongue_show",
+   "index": 439
+  }
+ ],
+ "bone_labels": [
+  "root",
+  "pelvis.L",
+  "upperleg01.L",
+  "upperleg02.L",
+  "lowerleg01.L",
+  "lowerleg02.L",
+  "foot.L",
+  "toe1-1.L",
+  "toe1-2.L",
+  "toe2-1.L",
+  "toe2-2.L",
+  "toe2-3.L",
+  "toe3-1.L",
+  "toe3-2.L",
+  "toe3-3.L",
+  "toe4-1.L",
+  "toe4-2.L",
+  "toe4-3.L",
+  "toe5-1.L",
+  "toe5-2.L",
+  "toe5-3.L",
+  "pelvis.R",
+  "upperleg01.R",
+  "upperleg02.R",
+  "lowerleg01.R",
+  "lowerleg02.R",
+  "foot.R",
+  "toe1-1.R",
+  "toe1-2.R",
+  "toe2-1.R",
+  "toe2-2.R",
+  "toe2-3.R",
+  "toe3-1.R",
+  "toe3-2.R",
+  "toe3-3.R",
+  "toe4-1.R",
+  "toe4-2.R",
+  "toe4-3.R",
+  "toe5-1.R",
+  "toe5-2.R",
+  "toe5-3.R",
+  "spine05",
+  "spine04",
+  "spine03",
+  "spine02",
+  "spine01",
+  "clavicle.L",
+  "shoulder01.L",
+  "upperarm01.L",
+  "upperarm02.L",
+  "lowerarm01.L",
+  "lowerarm02.L",
+  "wrist.L",
+  "finger1-1.L",
+  "finger1-2.L",
+  "finger1-3.L",
+  "metacarpal1.L",
+  "finger2-1.L",
+  "finger2-2.L",
+  "finger2-3.L",
+  "metacarpal2.L",
+  "finger3-1.L",
+  "finger3-2.L",
+  "finger3-3.L",
+  "metacarpal3.L",
+  "finger4-1.L",
+  "finger4-2.L",
+  "finger4-3.L",
+  "metacarpal4.L",
+  "finger5-1.L",
+  "finger5-2.L",
+  "finger5-3.L",
+  "clavicle.R",
+  "shoulder01.R",
+  "upperarm01.R",
+  "upperarm02.R",
+  "lowerarm01.R",
+  "lowerarm02.R",
+  "wrist.R",
+  "finger1-1.R",
+  "finger1-2.R",
+  "finger1-3.R",
+  "metacarpal1.R",
+  "finger2-1.R",
+  "finger2-2.R",
+  "finger2-3.R",
+  "metacarpal2.R",
+  "finger3-1.R",
+  "finger3-2.R",
+  "finger3-3.R",
+  "metacarpal3.R",
+  "finger4-1.R",
+  "finger4-2.R",
+  "finger4-3.R",
+  "metacarpal4.R",
+  "finger5-1.R",
+  "finger5-2.R",
+  "finger5-3.R",
+  "neck01",
+  "neck02",
+  "neck03",
+  "head",
+  "eye.L",
+  "eye.R"
+ ],
+ "bone_parents": [
+  -1,
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  6,
+  9,
+  10,
+  6,
+  12,
+  13,
+  6,
+  15,
+  16,
+  6,
+  18,
+  19,
+  0,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  26,
+  29,
+  30,
+  26,
+  32,
+  33,
+  26,
+  35,
+  36,
+  26,
+  38,
+  39,
+  0,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  52,
+  56,
+  57,
+  58,
+  52,
+  60,
+  61,
+  62,
+  52,
+  64,
+  65,
+  66,
+  52,
+  68,
+  69,
+  70,
+  45,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  78,
+  82,
+  83,
+  84,
+  78,
+  86,
+  87,
+  88,
+  78,
+  90,
+  91,
+  92,
+  78,
+  94,
+  95,
+  96,
+  45,
+  98,
+  99,
+  100,
+  101,
+  101
+ ],
+ "skin_dropped_max": 0.0010000000169966272
+}

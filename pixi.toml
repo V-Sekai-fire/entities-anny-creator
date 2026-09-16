@@ -1,0 +1,21 @@
+[workspace]
+name = "anny-creator"
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64"]
+
+# The bake runs once, under Python, and writes the asset the Godot project loads.
+# Nothing at runtime reaches this environment (RFD 2239).
+[feature.bake.dependencies]
+python = "3.11.*"
+
+[feature.bake.pypi-dependencies]
+anny = { path = "../../3-interactor/anny", editable = true }
+numpy = ">=2.0"
+torch = { version = ">=2.6", index = "https://download.pytorch.org/whl/cpu" }
+pygltflib = ">=1.16"
+
+[feature.bake.tasks]
+bake = "python tools/bake_anny.py"
+
+[environments]
+bake = { features = ["bake"], no-default-feature = true }

@@ -2,3 +2,10 @@
 build/
 *.import
 .DS_Store
+
+# Baked by tools/bake_anny.py; hundreds of MB, reproducible from the bake env.
+assets/*.glb
+assets/*.f32
+.pixi/
+checks/*.log
+.godot/
