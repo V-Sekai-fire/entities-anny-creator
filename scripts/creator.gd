@@ -176,6 +176,7 @@ func _recompute(first: bool) -> void:
 
 func _export() -> void:
 	var doc := GLTFDocument.new()
+	doc.root_node_mode = GLTFDocument.ROOT_NODE_MODE_MULTI_ROOT
 	var state := GLTFState.new()
 	var err := doc.append_from_scene(get_child(0), state)
 	if err == OK:

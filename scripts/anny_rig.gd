@@ -15,6 +15,17 @@ static func nearest_rotation(m: Basis) -> Basis:
 		x = y
 		if moved < 1e-10:
 			break
+	if x.determinant() < 0.0:
+		# The polar factor is a reflection; the nearest proper rotation flips the axis of the
+		# smallest singular value, the eigenvector of m^T m with the smallest eigenvalue.
+		var s := m.transposed() * m
+		var eps := 1e-9 * (s.x.length() + s.y.length() + s.z.length())
+		var si := Basis(s.x + Vector3(eps, 0, 0), s.y + Vector3(0, eps, 0), s.z + Vector3(0, 0, eps)).inverse()
+		var v := Vector3(1, 1, 1).normalized()
+		for _i in 60:
+			v = (si * v).normalized()
+		var flip := Basis(Vector3(1, 0, 0) - 2.0 * v.x * v, Vector3(0, 1, 0) - 2.0 * v.y * v, Vector3(0, 0, 1) - 2.0 * v.z * v)
+		x = x * flip
 	return x
 
 

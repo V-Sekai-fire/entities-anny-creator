@@ -19,6 +19,7 @@ func _init() -> void:
 	var scene := doc.generate_scene(state)
 	root.add_child(scene)
 	var out_doc := GLTFDocument.new()
+	out_doc.root_node_mode = GLTFDocument.ROOT_NODE_MODE_MULTI_ROOT
 	var out_state := GLTFState.new()
 	if out_doc.append_from_scene(scene, out_state) != OK:
 		printerr("FAIL: append_from_scene")
@@ -50,7 +51,7 @@ func _audit(path: String) -> int:
 	f.get_32() # length
 	var chunk_len := f.get_32()
 	f.get_32() # JSON chunk type
-	var json := JSON.parse_string(f.get_buffer(chunk_len).get_string_from_utf8())
+	var json: Dictionary = JSON.parse_string(f.get_buffer(chunk_len).get_string_from_utf8())
 	var fails := 0
 	for ext in json.get("extensionsUsed", []):
 		if not (String(ext).begins_with("KHR_") or String(ext).begins_with("VRMC_")):
