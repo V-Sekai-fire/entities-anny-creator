@@ -162,6 +162,8 @@ func _process(delta: float) -> void:
 	if frames == 120 and "--screenshot" in OS.get_cmdline_user_args():
 		get_viewport().get_texture().get_image().save_png("user://creator.png")
 		print("screenshot -> ", OS.get_user_data_dir().path_join("creator.png"))
+		_export()
+		print(status.text)
 	if dirty and timer > 0.03:
 		timer = 0.0
 		dirty = false
@@ -188,10 +190,9 @@ func _recompute(first: bool) -> void:
 
 
 func _export() -> void:
-	var doc := GLTFDocument.new()
-	doc.root_node_mode = GLTFDocument.ROOT_NODE_MODE_MULTI_ROOT
-	var state := GLTFState.new()
-	var err := doc.append_from_scene(get_child(0), state)
-	if err == OK:
-		err = doc.write_to_filesystem(state, "user://anny_export.glb")
-	status.text = "export %s -> user://anny_export.glb" % ("ok" if err == OK else "failed %d" % err)
+	var out := AnnyExport.build_scene(mesh_instance, skeleton, tables, coeffs, "anny_character")
+	add_child(out)
+	var path := "user://anny_character.vrm"
+	var err := AnnyExport.write(out, path, true, "ANNY character")
+	out.queue_free()
+	status.text = "export %s -> %s" % ["ok" if err == OK else "failed %d" % err, ProjectSettings.globalize_path(path)]

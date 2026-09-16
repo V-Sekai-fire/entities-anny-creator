@@ -56,9 +56,15 @@ static func rest_globals(tables: AnnyTables, c: PackedFloat32Array) -> Array[Tra
 	return out
 
 
+# Godot's glTF import rewrites "pelvis.L" to "pelvis_L", so a label is matched both ways.
+static func bone_index(skeleton: Skeleton3D, label: String) -> int:
+	var b := skeleton.find_bone(label)
+	return b if b >= 0 else skeleton.find_bone(label.replace(".", "_"))
+
+
 static func apply(skeleton: Skeleton3D, skin: Skin, tables: AnnyTables, globals: Array[Transform3D]) -> void:
 	for j in tables.bone_count:
-		var bone := skeleton.find_bone(tables.bone_labels[j])
+		var bone := bone_index(skeleton, tables.bone_labels[j])
 		if bone < 0:
 			push_error("bone missing on skeleton: " + tables.bone_labels[j])
 			return
@@ -70,7 +76,10 @@ static func apply(skeleton: Skeleton3D, skin: Skin, tables: AnnyTables, globals:
 		var bone := skin.get_bind_bone(b)
 		if bone < 0:
 			bone = skeleton.find_bone(skin.get_bind_name(b))
-		var j := tables.bone_labels.find(skeleton.get_bone_name(bone))
+		var name := skeleton.get_bone_name(bone)
+		var j := tables.bone_labels.find(name)
+		if j < 0:
+			j = tables.bone_labels.find(name.replace("_", "."))
 		if j >= 0:
 			skin.set_bind_pose(b, globals[j].affine_inverse())
 	skeleton.force_update_all_bone_transforms()

@@ -18,8 +18,16 @@ same chain.
 ## Build and check
 
 ```sh
-# nothing yet: the fixture bake is the first milestone, see RFD 2253
+pixi install -e bake
+pixi run -e bake bake                      # assets/anny_base.glb and the joint tables
+<godot> --path . scenes/creator.tscn       # the creator
+checks/run.sh <godot>                      # every check and its planted control
 ```
+
+The bake reads the workspace's ANNY fork at `../../3-interactor/anny`. The checks: slider
+parity against the Python model on 20 seeded parameter vectors (0.2 mm tolerance, a quarter
+of a credit card), topology pinned at 13,718 vertices, export with no extension outside
+`KHR_*` and `VRMC_*`, and the shaped export re-importing to the shape the sliders described.
 
 ## Licence
 
