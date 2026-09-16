@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this creator or the assets it bakes, please cite it as below."
+type: software
+title: "A character creator on ANNY"
+authors:
+  - name: "weft"
+license: "Apache-2.0 OR MIT"
+abstract: >-
+  A Godot project that lets a person set the 317 shape weights of the canonical ANNY
+  fixture (eleven phenotype axes, 52 facial actions under FACS action-unit numbers, 254
+  local dials) and export a rigged, expressive human as pure-data glTF and VRM 1.0.
+  Joints follow the shape through the hm08 JointCubes helper geometry. Decision record
+  is RFD 2253 in weftspun/request-for-discussion.
+references:
+  - type: software
+    title: "Anny"
+    authors:
+      - name: "NAVER Corp."
+    url: "https://github.com/naver/anny"
+    license: Apache-2.0
+  - type: software
+    title: "hm08-partition"
+    authors:
+      - name: "weft"
+    url: "https://github.com/V-Sekai-fire/contract-hm08-partition"
+    license: "Apache-2.0 OR MIT"
+  - type: dataset
+    title: "STARFORGED-STD-3001 Vol 2 Appendix E, human configuration"
+    authors:
+      - name: "weft"
+    url: "https://huggingface.co/datasets/chibifire/starforged-std-3001-appendix-e"
+    license: CC-BY-4.0
