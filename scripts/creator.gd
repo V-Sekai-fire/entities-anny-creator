@@ -156,9 +156,9 @@ func _process(delta: float) -> void:
 	frames += 1
 	if frames == 90 and "--screenshot" in OS.get_cmdline_user_args():
 		phenotype["muscle"] = 0.9
-			phenotype["weight"] = 0.2
-			facial["au26_jaw_drop"] = 0.6
-			_recompute(false)
+		phenotype["weight"] = 0.2
+		facial["au26_jaw_drop"] = 0.6
+		_recompute(false)
 	if frames == 120 and "--screenshot" in OS.get_cmdline_user_args():
 		get_viewport().get_texture().get_image().save_png("user://creator.png")
 		print("screenshot -> ", OS.get_user_data_dir().path_join("creator.png"))
