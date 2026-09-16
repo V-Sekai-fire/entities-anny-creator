@@ -16,6 +16,7 @@ var facial := {}
 var status: Label
 var timer := 0.0
 var dirty := false
+var frames := 0
 
 
 func _ready() -> void:
@@ -55,9 +56,9 @@ func _find(node: Node, cls: String) -> Node:
 
 func _build_world() -> void:
 	var cam := Camera3D.new()
+	add_child(cam)
 	cam.position = Vector3(0.0, 1.0, 3.2)
 	cam.look_at(Vector3(0.0, 0.95, 0.0))
-	add_child(cam)
 	var sun := DirectionalLight3D.new()
 	sun.rotation_degrees = Vector3(-40.0, 30.0, 0.0)
 	add_child(sun)
@@ -152,6 +153,15 @@ func _mark() -> void:
 
 func _process(delta: float) -> void:
 	timer += delta
+	frames += 1
+	if frames == 90 and "--screenshot" in OS.get_cmdline_user_args():
+		phenotype["muscle"] = 0.9
+			phenotype["weight"] = 0.2
+			facial["au26_jaw_drop"] = 0.6
+			_recompute(false)
+	if frames == 120 and "--screenshot" in OS.get_cmdline_user_args():
+		get_viewport().get_texture().get_image().save_png("user://creator.png")
+		print("screenshot -> ", OS.get_user_data_dir().path_join("creator.png"))
 	if dirty and timer > 0.03:
 		timer = 0.0
 		dirty = false
@@ -171,7 +181,10 @@ func _recompute(first: bool) -> void:
 	var stature := 0.0
 	for i in tables.bone_count:
 		stature = maxf(stature, globals[i].origin.y)
-	status.text = "update %d us; top joint at %.3f m" % [us, stature]
+	var vram := RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_VIDEO_MEM_USED) / 1048576.0
+	status.text = "update %d us; highest joint %.3f m above the origin; video memory %.0f MB" % [us, stature, vram]
+	if first:
+		print(status.text)
 
 
 func _export() -> void:
