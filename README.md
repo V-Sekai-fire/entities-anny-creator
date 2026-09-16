@@ -1,4 +1,4 @@
-A character creator on ANNY: sliders over a permissive parametric human, in one Godot binary, exporting pure-data VRM.
+A character creator with sliders over a permissive parametric human exporting VRM.
 
 ## Build and check
 
