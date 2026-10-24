@@ -4,7 +4,7 @@ A character creator with sliders over the ANNY parametric human that exports the
 
 ## What it is for
 
-A one-time bake turns the ANNY model into the mesh, morph targets and joint tables the engine project loads. At runtime the sliders and the joint math run in the engine alone. RFD 2253 in [manuals-weftspun](https://github.com/V-Sekai-fire/manuals-weftspun) owns the design.
+A one-time bake turns the ANNY model into the mesh, morph targets and joint tables the engine project loads. At runtime the sliders and the joint math run in the engine alone. RFD66606-2253 in [manuals-weftspun](https://github.com/V-Sekai-fire/manuals-weftspun) owns the design.
 
 ## Build and run
 
