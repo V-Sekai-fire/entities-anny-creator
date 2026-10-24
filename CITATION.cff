@@ -10,7 +10,7 @@ abstract: >-
   fixture (eleven phenotype axes, 52 facial actions under FACS action-unit numbers, 254
   local dials) and export a rigged, expressive human as pure-data glTF and VRM 1.0.
   Joints follow the shape through the hm08 JointCubes helper geometry. Decision record
-  is RFD 2253 in weftspun/request-for-discussion.
+  is RFD66606-2253 in weftspun/request-for-discussion.
 references:
   - type: software
     title: "Anny"

@@ -4,7 +4,7 @@ channels = ["conda-forge"]
 platforms = ["win-64", "linux-64"]
 
 # The bake runs once, under Python, and writes the asset the Godot project loads.
-# Nothing at runtime reaches this environment (RFD 2239).
+# Nothing at runtime reaches this environment (RFD66606-2239).
 [feature.bake.dependencies]
 python = "3.11.*"
 
